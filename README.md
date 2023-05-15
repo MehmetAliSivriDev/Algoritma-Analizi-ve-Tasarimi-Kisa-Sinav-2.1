@@ -13,8 +13,9 @@ Kullanılan Algoritmaların Zaman Karmaşıkları Açıklaması:<br>
 -->Her bir bölünme işlemi O(log n) zaman alırken, her bir birleştirme işlemi O(n) zaman alır.<br>
 -->Bu nedenle toplamda O(n log n) zaman karmaşıklığına sahiptir.<br>
 
--Dijkstra
--->Dijksta alogritmasının zaman karmaşıklığı O((Düğüm Sayısı + Kenar Sayısı) log Düğüm Sayısı) veya O(Düğüm Sayısı ^2) şeklindedir.
--->Lakin bizim kodumuzda grafımız sabit bir boyuta sahip olduğundan ve matris şeklinde temsil edildiğinden,Dijkstra algoritması için zaman karmaşıklığı O(Düğüm Sayısı ^2) olarak hesaplanabilir.
--->Bunun sebebi iç içe iki döngü kullanılarak her düğümün diğer düğümlere olan en kısa yolları hesaplanmasıdır.
--->Bundan dolayı bizim kodumuzda Dijkstra algoritmasının zaman karmaşıklığı O(Düğüm Sayısı ^2) şeklindedir.
+-Dijkstra<br>
+-->Dijksta alogritmasının zaman karmaşıklığı O((Düğüm Sayısı + Kenar Sayısı) log Düğüm Sayısı) veya O(Düğüm Sayısı ^2) şeklindedir.<br>
+-->Lakin bizim kodumuzda grafımız sabit bir boyuta sahip olduğundan ve matris şeklinde temsil edildiğinden,Dijkstra algoritması için zaman karmaşıklığı 
+O(Düğüm Sayısı ^2) olarak hesaplanabilir.<br>
+-->Bunun sebebi iç içe iki döngü kullanılarak her düğümün diğer düğümlere olan en kısa yolları hesaplanmasıdır.<br>
+-->Bundan dolayı bizim kodumuzda Dijkstra algoritmasının zaman karmaşıklığı O(Düğüm Sayısı ^2) şeklindedir.<br>
