@@ -1,17 +1,17 @@
 # Algoritma-Analizi-ve-Tasarimi-Kisa-Sinav-2.1
 Algoritma Analizi ve Tasarımı Kısa Sınav 2.1 Kod
 
-Eski kodla karşılaştırıldığında:
-Bubble Sort Algoritması yerine Merge Sort Algoritması
-Floyd-Warshall Algoritması yerine Dijkstra Algoritması kullanılmıştır.
+Eski kodla karşılaştırıldığında:<br>
+Bubble Sort Algoritması yerine Merge Sort Algoritması<br>
+Floyd-Warshall Algoritması yerine Dijkstra Algoritması kullanılmıştır.<br>
 
-Kullanılan Algoritmaların Zaman Karmaşıkları Açıklaması:
--Merge Sort
--->Merge sort algoritmasının zaman karmaşıklığı O(n log n) şeklindedir. 
--->Merge sort, sıralanacak diziyi ikiye böler ve ardından her iki yarıyı ayrı ayrı sıralar.
--->Ardından iki sıralı alt diziyi birleştirerek sonuç diziyi elde eder. 
--->Her bir bölünme işlemi O(log n) zaman alırken, her bir birleştirme işlemi O(n) zaman alır.
--->Bu nedenle toplamda O(n log n) zaman karmaşıklığına sahiptir.
+Kullanılan Algoritmaların Zaman Karmaşıkları Açıklaması:<br>
+-Merge Sort<br>
+-->Merge sort algoritmasının zaman karmaşıklığı O(n log n) şeklindedir.<br>
+-->Merge sort, sıralanacak diziyi ikiye böler ve ardından her iki yarıyı ayrı ayrı sıralar.<br>
+-->Ardından iki sıralı alt diziyi birleştirerek sonuç diziyi elde eder.<br>
+-->Her bir bölünme işlemi O(log n) zaman alırken, her bir birleştirme işlemi O(n) zaman alır.<br>
+-->Bu nedenle toplamda O(n log n) zaman karmaşıklığına sahiptir.<br>
 
 -Dijkstra
 -->Dijksta alogritmasının zaman karmaşıklığı O((Düğüm Sayısı + Kenar Sayısı) log Düğüm Sayısı) veya O(Düğüm Sayısı ^2) şeklindedir.
